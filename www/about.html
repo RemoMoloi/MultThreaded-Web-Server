@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About This Server</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #1d2b64, #f8cdda);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      max-width: 700px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ffcc70;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      color: #f0f0f0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 1rem;
+      color: #fff;
+      background: #00b894;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #019875;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ℹ️ About This Server</h1>
+    <p>This project is a simplified <strong>multi-threaded web server</strong> written in Python.</p>
+    <p>It demonstrates key <strong>Operating System concepts</strong> including:</p>
+    <p>
+      ✅ Multi-threading for handling concurrent requests<br>
+      ✅ Thread synchronization for safe logging<br>
+      ✅ Memory management techniques in Python<br>
+      ✅ Basic scheduling of client connections<br>
+      ✅ File handling for serving static content
+    </p>
+    <p>All requests and responses are logged, and performance can be tested using concurrent client scripts.</p>
+    <a href="index.html" class="btn">⬅ Back to Home</a>
+  </div>
+</body>
+</html>
