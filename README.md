@@ -1,4 +1,4 @@
-# Multi-Threaded Python Web Server (Assignment 1 - Remotlotlo Moloi)
+# Multi-Threaded Python Web Server
 
 ## Overview
 This project implements a simplified multi-threaded web server in Python.
